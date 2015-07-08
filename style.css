@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+#body{
+  background-color:black;
+}
+
+#game {
+  float:left;
+  background-color:black;
+  spacing-right:5px;
+  color:white;
+}
+
+#score, #level, #lines{
+  font-weight:bold;
+  font-size: 6;
+  color:#22ff22;
+}
+
+#scorestr{
+  font-weight:bolder;
+  font-size: 15pt;
+  font-family:"Lucida Console",monospace;
+  color:white;
+}
+
+#rightpane{
+  padding-left:0px;
+}
+
+.gamesquare {
+  background-color:#555555;
+  width:12px;
+  height:12px;
+}
+
+.button{
+  background-color:#222222;
+  width:60px;
+  height:45px;
+  font-family:"Lucida Console",monospace;
+  font-weight:bolder;
+  color:yellow;
+  border-color:yellow;
+  border-style:solid;
+  font-size:20pt;
+  
+}
+
+#linesstr,#levelstr,#nextstr{
+  color:white;
+  font-family:"Lucida Console",monospace;
+  font-weight:bold
+  font-size:10pt;
+}
+
+#lines{
+  color:#00ffff;
+}
+
+#bugs{
+  color:blue;
+  font-weight:bold;
+  font-size:10pt;
+}
+
+#title{
+  font-family:"Lucida Console",monospace;
+  /*font-size:14pt;*/
+  color:white;
+  font-weight:bold;
+  background-color:black;
+  padding-left:100px;
+}
